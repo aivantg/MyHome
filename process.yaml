@@ -1,0 +1,4 @@
+apps:
+  - name: myhome
+    script: app.js
+    exec_mode: fork
