@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "ssh pi && cd /var/www/html/myhome && git pull && yarn run restart", 
+    "deploy": "ssh home && cd /var/www/html/myhome && git pull && yarn run restart", 
     "develop": "PORT=3001 nodemon app.js",
     "start": "pm2 start process.yaml",
     "restart": "pm2 restart all",
